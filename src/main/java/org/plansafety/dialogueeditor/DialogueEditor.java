@@ -13,11 +13,11 @@ public class DialogueEditor {
 		mainFrame.setSize(1280, 720);
 		
 
-		JTabbedPane tabbedPane = new JTabbedPane();
+		JPanel treeViewerPanel = new JPanel(); // Will be TreeViewerPanel
 
 		JPanel optionsPanel = new JPanel();
 
-		JSplitPane splitPane = new JSplitPane(JSplitPane.VERTICAL_SPLIT, tabbedPane, optionsPanel);
+		JSplitPane splitPane = new JSplitPane(JSplitPane.VERTICAL_SPLIT, treeViewerPanel, optionsPanel);
 
 		splitPane.setDividerLocation(500);
 
