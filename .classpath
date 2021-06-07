@@ -11,10 +11,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="deps/PlanSafetyLib-v0.1.1.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="lib" path="deps/PlanSafetyLib-v0.1.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
